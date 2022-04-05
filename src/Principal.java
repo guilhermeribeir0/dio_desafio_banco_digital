@@ -28,21 +28,18 @@ public class Principal {
                     System.out.print("Informe o valor do saque: ");
                     valorInformado = input.nextDouble();
                     poupanca.sacar(valorInformado);
-                    System.out.println("----EXTRAT0----");
                     poupanca.imprimirExtrato();
                     break;
                 case 2:
                     System.out.print("Informe o valor do deposito: ");
                     valorInformado = input.nextDouble();
                     poupanca.depositar(valorInformado);
-                    System.out.println("----EXTRAT0----");
                     poupanca.imprimirExtrato();
                     break;
                 case 3:
                     System.out.print("Informe o valor da transferencia: ");
                     valorInformado = input.nextDouble();
                     corrente.transferir(valorInformado, poupanca);
-                    System.out.println("----EXTRAT0----");
                     poupanca.imprimirExtrato();
                     corrente.imprimirExtrato();
                     break;
@@ -63,21 +60,18 @@ public class Principal {
                     System.out.print("Informe o valor do saque: ");
                     valorInformado = input.nextDouble();
                     poupanca.sacar(valorInformado);
-                    System.out.println("----EXTRAT0----");
                     poupanca.imprimirExtrato();
                     break;
                 case 2:
                     System.out.print("Informe o valor do deposito: ");
                     valorInformado = input.nextDouble();
                     poupanca.depositar(valorInformado);
-                    System.out.println("----EXTRAT0----");
                     poupanca.imprimirExtrato();
                     break;
                 case 3:
                     System.out.print("Informe o valor da transferencia: ");
                     valorInformado = input.nextDouble();
                     corrente.transferir(valorInformado, poupanca);
-                    System.out.println("----EXTRAT0----");
                     poupanca.imprimirExtrato();
                     corrente.imprimirExtrato();
                     break;

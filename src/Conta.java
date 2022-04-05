@@ -60,6 +60,7 @@ public abstract class Conta implements IntConta {
     }
 
     protected void imprimirInfosComuns() {
+        System.out.println("------EXTRAT0------");
         System.out.println(String.format("AGENCIA: %d", agencia));
         System.out.println(String.format("CONTA: %d", conta));
         System.out.println(String.format("SALDO: %.2f", saldoFinal));
